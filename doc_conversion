@@ -1,0 +1,18 @@
+# Handy function to locate and convert all ReStructuredText files to Markdown
+# in an existing project, testing the new file exists.
+
+rst_to_md(){
+	FILES=$(find ./ -name "*.rst")
+	for f in $FILES
+	do
+	  filename=$(basename -s .rst $f)
+	  fpath=$(dirname $f)
+	  echo "Converting $filename from RST to Markdown in $fpath"
+	  pandoc $fpath/$filename.rst -f rst -t gfm -o $fpath/$filename.md
+	  if [[ -f $fpath/$filename.md ]]
+	  then
+	     echo "Success!"
+	     echo
+	  fi
+	done
+}
