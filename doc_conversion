@@ -1,4 +1,4 @@
-# Handy function to locate and convert all ReStructuredText files to Markdown
+# Handy bash function to locate and convert all ReStructuredText files to Markdown
 # in an existing project, testing the new file exists.
 
 rst_to_md(){
