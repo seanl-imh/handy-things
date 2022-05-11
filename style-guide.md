@@ -3,7 +3,21 @@
 The intention of this document is to provide clarity and standardize internal
 documentation written in Markdown.
 
-TOC
+- [Markdown Sample Page](#markdown-sample-page)
+  - [Titles and Headings](#titles-and-headings)
+  - [Lists](#lists)
+    - [Definition lists](#definition-lists)
+    - [Numbered Lists](#numbered-lists)
+  - [Emphasis](#emphasis)
+  - [Strikethrough](#strikethrough)
+  - [Blockquotes](#blockquotes)
+  - [Inline Code](#inline-code)
+  - [Code Blocks](#code-blocks)
+  - [Horizontal rules](#horizontal-rules)
+  - [Links](#links)
+    - [Inline Links](#inline-links)
+    - [Automatic Hyperlinks](#automatic-hyperlinks)
+    - [Image Links](#image-links)
 
 ## Titles and Headings
 
@@ -15,9 +29,7 @@ the document outline. Headings up to level 6 (`######`) are supported.
 ```
 # Level 1 (H1) Heading
 ## Level 2 (H2) Heading
-### Level 3 (H3) Heading
-#### Level 4 (H4) Heading
-##### Level 5 (H5) Heading
+...
 ###### Level 6 (H6) Heading
 ```
 
@@ -64,11 +76,10 @@ Simple example:
 Multi-line definition example:
 
 - **apple**: red fruit
-  
+    Shiny
     Very tasty
-
 - **dog**: bark bark
-
+    Arf
     Not tasty
 
 ### Numbered Lists
@@ -139,12 +150,12 @@ Used to stand off text obtained from another source:
 ```
 In the immortal words of Socrates:
 
-> I drank _**what**_?
+> I drank ***what***?
 ```
 
 In the immortal words of Socrates:
 
-> I drank _**what**_?
+> I drank ***what***?
 
 ## Inline Code
 
@@ -194,8 +205,20 @@ Use `---`
 
 ## Links
 
+### Inline Links
+
     [Text Bar](https://example.foo)
 
 [Github](https://github.com)
 
-Wrap automatic links in angle brackets `<>`: <https://github.com>
+### Automatic Hyperlinks
+
+Wrap automatic links in angle brackets `<https://github.com>`: <https://github.com>
+
+### Image Links
+
+Same format as inline links. Preceded with `!` to denote image reference:
+
+    ![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
+
+![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
