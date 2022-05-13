@@ -80,12 +80,12 @@ Simple example:
 
 Multi-line definition example:
 
-- **apple**: red fruit
-    Shiny
-    Very tasty
-- **dog**: bark bark
-    Arf
-    Not tasty
+- **apple**: red fruit  
+  Shiny  
+  Very tasty
+- **dog**: bark bark  
+  Arf  
+  Not tasty
 
 ### Numbered Lists
 
