@@ -75,8 +75,8 @@ Simple example:
 - **dog**: bark bark
 ```
 
-- **apple**: red fruit
-- **dog**: bark bark
+* **apple**: red fruit
+* **dog**: bark bark
 
 Multi-line definition example:
 
