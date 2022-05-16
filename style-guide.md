@@ -26,6 +26,7 @@ documentation written in Markdown.
 
 ## Titles and Headings
 
+
 Markdown defines multiple methods for section titles and headers. For our purposes
 the `header:atx` method is preferred. Headings are indicated by starting the line
 with one or more `#` marks with the number of `#` determining heading depth within
