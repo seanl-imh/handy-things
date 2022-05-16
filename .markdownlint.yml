@@ -3,5 +3,5 @@
   "MD004": { "style": "dash" },
   "MD003": { "style": "atx" },
   "MD013": { "code_blocks": false },
-  "whitespace": false
+  "whitespace": true
 }
