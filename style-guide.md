@@ -177,8 +177,8 @@ Use `backticks` to markup inline code within a paragraph.
 
 ## Code Blocks
 
-Multi-line spans, commands with output and other preformatted text should utilize
-**unindented** fenced code blocks:
+Utilize **unindented** fenced code blocks. For linting, code blocks should specify
+language or _text_ for preformatted text:
 
 ```text
 Optionally specify language to enable syntax highlighting:
