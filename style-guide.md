@@ -22,12 +22,14 @@ documentation written in Markdown.
 
 ## Line wrapping
 
-`wrap:inner-sentence`
+
 
 ## Titles and Headings
 
+`header: atx`
+
 Markdown defines multiple methods for section titles and headers. For our purposes
-the `header:atx` method is preferred. Headings are indicated by starting the line
+the atx method is preferred. Headings are indicated by starting the line
 with one or more `#` marks with the number of `#` determining heading depth within
 the document outline. Headings up to level 6 (`######`) are supported.
 
@@ -105,9 +107,8 @@ Will be rendered as:
    1. Pear
 1. Cake
 
-It is acceptable to utilize this feature for short lists such as above, however,
-for readability it is a good idea to maintain list item numbers in the source
-Markdown.
+Prefixing each list item with `1.` and utilizing renumbering is preferred
+unless you will be referencing the listed items by number or in short lists.
 
 Numbered lists can also be nested by using more leading space than the prior
 list item.
@@ -138,7 +139,7 @@ Emphasize paragraph text with _italic_ and **bold** styles.
 ```text
 Emphasize paragraph text with _italic_ and **bold** text.
 ```
-<!-- -->
+
 ```text
 **It is _strongly_ encouraged to review documentation for typos**
 ```
@@ -178,7 +179,7 @@ Use `backticks` to markup inline code within a paragraph.
 ## Code Blocks
 
 Utilize **unindented** fenced code blocks. For linting, code blocks should specify
-language or _text_ for preformatted text:
+language or `text` for preformatted text:
 
 ```text
 Optionally specify language to enable syntax highlighting:
