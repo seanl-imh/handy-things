@@ -22,8 +22,6 @@ documentation written in Markdown.
 
 ## Line wrapping
 
-
-
 ## Titles and Headings
 
 `header: atx`
