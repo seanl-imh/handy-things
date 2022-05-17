@@ -26,8 +26,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-            node-version: 14
-            cache: 'npm'
+            node-version: 1666666        cache: 'npm'
       - name: lint all markdown files
         run: |
           npm install
