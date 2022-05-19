@@ -61,15 +61,16 @@ with nested lists and paragraphs indenting 2 spaces above the parent.
 ```markdown
 Is that a monkey?
 
-- Librarian
-  - Orangutan
+- Orangutan
   - Ape
-    - Language?
+  - Librarian
+  - Language
 
-      Orangutans actually speak Orangutan. Unfortunately, humans can only listen
-      in bewilderment.
+      Orangutans speak Orangutan.
+      Humans only listen in bewilderment.
 
   - Ook
+
 - Millennium
   - Hand
     - Shrimp
@@ -129,16 +130,26 @@ Special attention should be paid to nested code block indentation to avoid
 
 - Blocks align with the current indent level
 - Preceded with a newline and 3 backticks
-- Language explicitly defined ` ```language`
+- Language explicitly defined ` ```language `
 - Closed with 3 backticks and a newline.
 
 ## Horizontal rules
 
-No.
+_Don't_ use horizontal rules (see [rationale](https://cirosantilli.com/markdown-style-guide/#horizontal-rules))
+except to delineate the [end of a header](https://cirosantilli.com/markdown-style-guide/#end-of-a-header)
+not followed by a new header.
 
-[Exception](https://cirosantilli.com/markdown-style-guide/#end-of-a-header)
+Use three hyphens without spaces `---`:
 
-Use `---`
+```markdown
+# Header
+
+Content
+
+~~~
+
+Outside header.
+```
 
 ## Links
 
