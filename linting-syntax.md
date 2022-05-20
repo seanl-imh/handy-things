@@ -17,6 +17,9 @@ Inspired by and primarily derived from the rational and references of
 - Underscore format for _italics_: `_italics_`
 - Or when you **_really_ mean** it.
 
+**Lint Parameters**: `"MD049": { "style": "underscore" }`,
+                     `"MD050": { "style": "asterisk" }`
+
 ### Whitespace
 
 - Force linebreaks with empty line. No trailing whitespace.
@@ -70,7 +73,6 @@ Is that a monkey?
       Humans only listen in bewilderment.
 
   - Ook
-
 - Millennium
   - Hand
     - Shrimp
