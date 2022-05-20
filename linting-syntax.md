@@ -3,13 +3,36 @@
 The intention of this document is to provide clarity and standardize internal
 documentation written in Markdown.
 
+- [Markdown Linting Syntax Guide](#markdown-linting-syntax-guide)
+  - [Goal](#goal)
+  - [The Basics](#the-basics)
+    - [Whitespace](#whitespace)
+    - [Line Length](#line-length)
+  - [Headings](#headings)
+  - [Lists](#lists)
+    - [Unordered Lists](#unordered-lists)
+    - [Ordered List](#ordered-list)
+  - [Blockquotes](#blockquotes)
+  - [Code](#code)
+    - [Inline Code](#inline-code)
+    - [Fenced code blocks](#fenced-code-blocks)
+  - [Horizontal rules](#horizontal-rules)
+  - [Links](#links)
+    - [Inline Links](#inline-links)
+    - [Automatic Hyperlinks](#automatic-hyperlinks)
+    - [Image Links](#image-links)
+  - [Current Rules Defined](#current-rules-defined)
+
 ## Goal
 
 Create a testable Markdown standard, balancing readability and ease of maintenance.
 Establish ruleset for codebase Markdown linting.
 
 Inspired by and primarily derived from the rational and references of
-[Ciro Santilli](https://cirosantilli.com/markdown-style-guide)
+[Ciro Santilli](https://cirosantilli.com/markdown-style-guide). 
+
+- **Tooling**: [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
+- **Ruleset**: [markdownlint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
 
 ## The Basics
 
@@ -160,6 +183,8 @@ Blockquotes can also be nested as required.
 - Language explicitly defined ` ```language `
 - Closed with 3 backticks and a newline.
 
+**Lint Parameter**: `"MD048": { "style": "backtick" }`
+
 ## Horizontal rules
 
 _Don't_ use horizontal rules (see [rationale](https://cirosantilli.com/markdown-style-guide/#horizontal-rules))
@@ -201,3 +226,18 @@ Same format as inline links. Preceded with `!` to denote image reference:
 ```
 
 ![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
+
+## Current Rules Defined
+
+```yaml
+{
+  "default": true,
+  "MD003": { "style": "atx" },
+  "MD004": { "style": "dash" },
+  "MD013": { "code_blocks": false },
+  "MD048": { "style": "backtick" },
+  "MD049": { "style": "underscore" },
+  "MD050": { "style": "asterisk" },
+  "whitespace": true
+}
+```
