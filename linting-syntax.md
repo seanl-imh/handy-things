@@ -29,7 +29,7 @@ Create a testable Markdown standard, balancing readability and ease of maintenan
 Establish ruleset for codebase Markdown linting.
 
 Inspired by and primarily derived from the rational and references of
-[Ciro Santilli](https://cirosantilli.com/markdown-style-guide). 
+[Ciro Santilli](https://cirosantilli.com/markdown-style-guide).
 
 - **Tooling**: [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
 - **Ruleset**: [markdownlint](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md)
