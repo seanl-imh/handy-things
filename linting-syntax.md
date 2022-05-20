@@ -114,6 +114,31 @@ Special attention should be paid to nested code block indentation to avoid
 2. Another thing
 ```
 
+## Blockquotes
+
+Use blockquotes to denote important information (notes, warnings etc) or to
+stand off text obtained from another source.
+
+```markdown
+Sir Terry Pratchett once said:
+
+> So much universe, so little time.
+```
+
+Sir Terry Pratchett once said:
+
+> So much universe, so little time.
+
+Blockquotes can also be nested as required.
+
+```markdown
+> This is a blockquote
+> > This one is nested
+```
+
+> This is a blockquote
+> > This one is nested
+
 ## Code
 
 ### Inline Code
