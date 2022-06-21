@@ -221,8 +221,10 @@ Wrap automatic links in angle brackets `<https://github.com>`: <https://github.c
 
 Same format as inline links. Preceded with `!` to denote image reference:
 
+> Note! All images **MUST** contain Alt text!
+
 ```text
-![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
+![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png "Diffy the Kung Fu Review Cuckoo!")
 ```
 
 ![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
@@ -238,6 +240,7 @@ Same format as inline links. Preceded with `!` to denote image reference:
   "MD048": { "style": "backtick" },
   "MD049": { "style": "underscore" },
   "MD050": { "style": "asterisk" },
-  "whitespace": true
+  "whitespace": true,
+  "accessibility": true
 }
 ```
