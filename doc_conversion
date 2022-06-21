@@ -9,8 +9,12 @@ rst_to_md(){
 	  fpath=$(dirname $f)
 	  echo "Converting $filename from RST to Markdown in $fpath"
 	  pandoc $fpath/$filename.rst -f rst -t gfm -o $fpath/$filename.md
-	  if [[ -f $fpath/$filename.md ]]
+	  if [[ ! -f $fpath/$filename.md ]]
 	  then
+             echo "No Markdown file created, something went wrong!"
+             echo
+                exit 1
+          else
 	     echo "Success!"
 	     echo
 	  fi
