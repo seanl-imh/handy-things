@@ -227,7 +227,7 @@ Same format as inline links. Preceded with `!` to denote image reference:
 ![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png "Diffy the Kung Fu Review Cuckoo!")
 ```
 
-![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png "Diffy the Kung Fu Review Cuckoo!")
+![diffy the kung fu review cuckoo](https://commondatastorage.googleapis.com/gerrit-static/diffy-w200.png)
 
 ## Current Rules Defined
 
