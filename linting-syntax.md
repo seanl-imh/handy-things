@@ -240,6 +240,7 @@ Same format as inline links. Preceded with `!` to denote image reference:
   "MD048": { "style": "backtick" },
   "MD049": { "style": "underscore" },
   "MD050": { "style": "asterisk" },
-  "whitespace": true
+  "whitespace": true,
+  "accessibility": true
 }
 ```
