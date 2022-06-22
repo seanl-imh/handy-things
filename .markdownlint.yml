@@ -3,6 +3,7 @@
   "MD003": { "style": "atx" },
   "MD004": { "style": "dash" },
   "MD013": { "code_blocks": false },
+  "MD046": { "style": "fenced" },
   "MD048": { "style": "backtick" },
   "MD049": { "style": "underscore" },
   "MD050": { "style": "asterisk" },
